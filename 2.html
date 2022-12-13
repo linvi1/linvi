@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的好友</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery/jquery-1.11.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        .col-sm-4{
+            border-bottom: 1px solid #0f0f0f;
+        }
+        .fakeimg {
+            height:300px;
+            background-image: url("img/mao1.jpg");
+            background-size: cover;
+            background-position:center center;
+        }
+        .navbar-inverse {
+            background-image: url("img/toubu.png");
+            position: relative;
+            height: 300px;
+            background-position: center center;
+            background-size: cover;
+        }
+        .jieshao{
+            font-size: 2vh;
+        }
+        .navbar-inverse li{
+            font-size: 25px;
+            padding-left:15vh;
+            font-weight: 500;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            color: black;
+        }
+        .navbar-header{
+            width: 90vw;
+            height: 20vh;
+        }
+        img {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .xiu{
+            border-width:3px;
+            border-style:dotted;
+            padding: 10px;
+        }
+        .tou{
+            border-width:3px;
+            border-style:dotted;
+            padding: 10px;
+        }
+        .dian{
+            border-width:3px;
+            border-style:dotted;
+            padding: 10px;
+        }
+        p{
+            font-size: 2vh;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <nav class="k-nav navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a href="1.html">
+                <h1>猫猫的博客</h1>
+            </a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul  class="nav navbar-nav">
+                        <li><a href="1.html">主页</a></li>
+                        <li><a href="2.html">我的好友</a></li>
+                        <li><a href="3.html">猫猫博客</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>关于我:</h2>
+            <h3>我的照片:</h3>
+            <div class="fakeimg"></div>
+            <div class="jieshao">
+                <p>如你所见我是一只猫</p>
+                <p>每天除了睡觉就是吃饭</p>
+                <p>兴趣爱好是出门溜圈</p>
+                <p>有人说我很胖，但是这叫壮</p>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7">
+            <h3>我的好友</h3>
+            <div class="xiu">
+                <h4>主人描述</h4>
+                <p><strong>修车猫</strong>,手脚麻利，修车经验两年半，能修汽车、卡车、公交车等。我原本是在希望它在家能给我好好捉老鼠，结果它天天跟我闹着要去南翔机校进修，一怒之下我与它断去猫主关系，它也提了根扳手离家出走。有缘你就能在我家附近的汽车维修店看到它，没缘就看不到。</p>
+                <img class="tua" src="img/xiu.jpg" alt="Chris standing up holding his daughter Elva">
+            </div>
+            <div class="tou">
+                <h4>主人描述</h4>
+                <p><strong>偷鱼猫</strong>，手脚麻利，惯偷20年，从未失手，若不是邻居拍到这张照片我还不知道，原来这么多年附近村子里老是说有专偷鱼的小偷，原来是这货。</p>
+                <img class="tua" src="img/tou.jpg" alt="Chris standing up holding his daughter Elva">
+            </div>
+            <div class="dian">
+                <h4>主人描述</h4>
+                <p><strong>电工猫</strong>,经常被问是做什么工作的，自从他看到电笔的第一眼，我再也不用烦脑家里的各种电器问题。上门维修请拨打——12138</p>
+                    <img class="tua" src="img/dian.jpg" alt="Chris standing up holding his daughter Elva">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
